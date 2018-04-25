@@ -35,3 +35,21 @@ print(spam + eggs + spam)
 spam = spam + 2
 print(spam)
 
+#Ex7: Overwriting the Variable
+spam = 'Hello'
+print(spam)
+spam = 'Goodbye'
+print(spam)
+
+#Ex8: First Program
+
+# This program says hello and asks for my name.
+print('Hello world!')
+print('What is your name?')	# ask for their name
+myName = input()
+print('It is good to meet you, ' + myName + '.')
+print('The length of your name is:')
+print(len(myName))
+print('What is your age?')	# ask for their name
+myAge = input()
+print(myName + ', you will be ' + str(int(myAge) + 1) + ' in a year.')
